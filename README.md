@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:03/11/2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,10 +31,130 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<html>
+    <style>
+        .box{
+            height: 700px;
+            width: 500px;
+            margin:auto;
+            position: relative;
+            
+        }
+        .title{
+            font-size: x-large;
+            font-weight: 400;
+            font-style: italic;
+            top:0%;
+            left:10%;
+            color:seashell;
+            position: absolute;
+            
+        }
+        .id {
+    width:400px;
+    position: relative;
+                top:180px;
+        }
 
+
+        .caption{
+            font-size: x-large;
+            font-weight: 900;
+            font-style: oblique;
+            color:seashell;
+
+            top:25%;
+            right:22px;
+            position:absolute;
+        }
+        .author{
+            
+            
+           
+            right: 0%;
+            bottom: 0px;
+            position: absolute;
+            
+           
+        }
+        .name{
+            font-size: large;
+            font-weight: 500;
+            font-style: initial;
+            position: absolute;
+            right: 4%;
+            TOP :20%;
+            color: seashell;
+
+        }
+
+        
+   
+        .bottom-bar {
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+            font-size: medium;
+        }
+        .publisher, .date {
+            display: inline-block;
+            margin-right: 10px;
+            font-weight: 600;
+            color: seashell;
+
+        }
+        
+
+
+    </style>
+    <body>
+        <div class="box">
+            
+            <center>
+                <img src="bookcover.jpg" width="100%" height="100%">
+            </center>
+           
+            <div class="title" >
+                <h1>ILLUSION OF TOGETHERNESS</h1>
+                
+
+            </div>
+            
+
+            
+            <div class="caption">
+                <p>You called it closeness. I called it hope
+
+                </p>
+            </div>
+            <hr>
+            <div class="name">
+                <p>-Darshan V</p>
+            </div>
+            
+            <div class="author">
+                <img src="24006814 photo.pdfk (1).jpg" width="85" height="85">
+            </div>
+    
+            <div class="bottom-bar">
+                <div class="publisher">Publisher: dream books</div>
+                <div class="date">2024</div>
+              
+            </div>
+            
+            
+            <div class="strip"></div>
+        </div>
+    
+    
+    </body>
+</html>
+```
 
 ## OUTPUT:
 
+![WhatsApp Image 2025-11-03 at 09 25 08_27c80d0b](https://github.com/user-attachments/assets/92ec450f-b8d8-461a-940c-af47f5b84f75)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
